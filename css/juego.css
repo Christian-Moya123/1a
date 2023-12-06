@@ -1,0 +1,66 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.juego {
+    display: grid;
+    background-color: aqua;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.botones {
+    display: grid;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding-bottom: 20px;
+}
+
+.botones button {
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+
+}
+
+.respuesta {
+    background-color: blue;
+    border: 20px solid black;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-size: 10px;
+
+}
+
+.negro {
+    color: black;
+}
+
+.amarillo {
+    color: yellow;
+}
+
+.rojo {
+    color: red;
+}
+
+.puntaje label{
+    
+    display: flex;
+    grid-template-columns: repeat(1, 2000px);
+    justify-content: center;
+    align-items: center;
+    
+}
